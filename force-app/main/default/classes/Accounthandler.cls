@@ -8,8 +8,9 @@ public class Accounthandler {
             else if(a.annualrevenue >= 50000){
                 a.tier__c = 'gold';
             }else{
-                a.tier__c = 'silver';
-            }  
+                a.tier__c = 'diamond';
+                // hahaha             
+        }  
         }
     }
     
